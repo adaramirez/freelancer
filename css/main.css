@@ -1,3 +1,229 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* La Navegación de la Página*/ 
+
+nav { /*Diseño de la barra de navegación*/
+    background-color: #2a3e51;
+    color: #ffff;
+    font-family:'Lato', sans-serif;
+    font-weight: 800; /*Esto no funcionó*/
+    padding: 1em 0 1em 0;
+    text-decoration: none;
+
+}
+
+header > nav > h1 { /*El título principal  de la barra de navegación*/
+    font-size: 30px;
+    left: 6em;
+    padding: 8px;
+    position: relative;   
+}
+
+
+nav > ul > li { /*El menú de opciones que manejan el control de la página*/
+    bottom: 3em;
+    float: right;
+    list-style-type: none;
+    padding-right: 2em;
+    position: relative;
+    right: 6em;
+}
+
+nav > ul > li > a { /*Eliminación de las propiedades predeterminadas de un link*/
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+nav > ul > li > a:hover { /*animación para los links de cambio de color*/
+    color: #18bc9c;
+}
+
+
+/*Primera sección*/
+.first-section > section { 
+    background-color: #18bc9c;
+    color: #ffffff;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.first-section > section > h1 {
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.first-section > section > p {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Segunda Sección*/
+.second-section > section {
+    background-color: #ffffff;
+    color: #212529;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.second-section > section > h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.second-section > section > img {
+    padding: 0.9%;
+    width: 24.5%;  
+}
+
+/*Tercera Sección*/
+.third-section > section {
+    background-color: #18bc9c;
+    color: #ffffff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.third-section > section> h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.container > .box {
+    display: table;
+    font-size: 20px;
+    margin: 3em auto;
+    width: 55%;
+}
+ 
+.container >  .box > .box-row {
+    display: table-row;
+}
+
+.container > .box > .box-row > .box-cell {
+    display: table-cell;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 2%;
+    text-align: left;
+    width: 26%;
+}
+
+.third-section > section > a {
+    text-decoration: inherit;
+}
+
+.third-section > section > a > i {
+    padding-right: 1em;
+}
+
+.swagButton {
+    border: solid 2px #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+/* Cuarta Sección*/
+.fourth-section > section {
+    background-color: #ffffff;
+    color: #918e96;
+    padding: 4em 0;
+    text-align: center;
+   
+}
+
+.fourth-section > section > h2 {
+    color: #212529;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.fourth-section > section > i {
+    color: #2c3e50;
+}
+
+.form-control { /*Edición de las diferentes datos a ingresar en la forma*/
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd9e6;
+    color: #a4a1ac;
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    width: 51%;
+}
+
+input {
+    height: 40px;
+}
+
+form .submit { /*Botón para enviar los datos de la forma para contacto*/
+    background-color: #18bc9c;
+    border-color: transparent;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 60px;
+    right: 24%;
+    position: relative;
+    width: 100px;    
+}
+
+form .submit:hover { 
+    cursor: pointer;
+    filter: brightness(60%);   
+}
+
+/* Quinta Sección*/
+.fifth-section > section { /*La edición del fondo de esta sección*/
+    background-color: #2c3e51;
+    color: #ffffff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.fifth-section > section > table { /*Creación de una tabla de tres columnas*/
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.fifth-section i { /*Edición de los íconos*/
+    font-size: 20px; 
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    padding: 12px;    
+}
+
+.fifth-section a {
+    text-decoration: none;
+    color: #18bc9c;
+    font-size: 20px;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #182530;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding: 1em;
+    text-align: center;
+    
+
+}
+
+
+
+
+
